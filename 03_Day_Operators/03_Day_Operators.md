@@ -1,5 +1,5 @@
 <div align="center">
-  <h1> 30_Days_Of_Python: 02_Day_Variable</h1>
+  <h1> 30_Days_Of_Python: 02_Day_Operators</h1>
   <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
   <img src="https://camo.githubusercontent.com/59a720eaa51a6bbc45ba76313bf53a4f2c84dde994c947809a49b41f3c828ef2/68747470733a2f2f7374617469632e636f64696e67666f72656e7472657072656e657572732e636f6d2f6d656469612f70726f6a656374732f33302d646179732d707974686f6e2d33382f696d616765732f73686172652f33305f446179735f6f665f507974686f6e5f2d5f53686172652e6a7067">
   </a>
@@ -12,7 +12,7 @@
 
 </div>
 
-[<< 02_Day](../02_Day_Variable) | [04_Day >>](../04_Day_Strings/04_strings.md)
+[<< 02_Day](../02_Day_Variable/02_Day_Variable.md) | [04_Day >>](../04_Day_Strings/04_Day_Strings.md)
 
 - [📘 03_Day](#-day-3)
   - [Boolean](#boolean)
@@ -329,4 +329,4 @@ You have lived for 3153600000 seconds.
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< 02_Day](../02_Day_Variable) | [04_Day >>](../04_Day_Strings/04_strings.md)
+[<< 02_Day](../02_Day_Variable/02_Day_Variable.md) | [04_Day >>](../04_Day_Strings/04_Day_Strings.md)
