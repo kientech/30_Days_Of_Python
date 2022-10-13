@@ -332,4 +332,4 @@ print(lenght)
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< 01_Day](../readme.md) | [03_Day >>](../03_Day_Operators/03_operators.md)
+[<< 01_Day](../readme.md) | [03_Day >>](../03_Day_Operators/03_Operators.md)
