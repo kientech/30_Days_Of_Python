@@ -58,7 +58,7 @@ Assignment operators are used to assign values to variables. Let us take = as an
 
 ![Arithmetic Operators](https://github.com/Asabeneh/30-Days-Of-Python/raw/master/images/arithmetic_operators.png)
 
-**Example:Integers**
+**Example: Integers**
 
 ```py
 # Arithmetic Operations in Python
@@ -70,13 +70,13 @@ print('Multiplication: ', 2 * 3)  # 6
 print ('Division: ', 4 / 2)       # 2.0  Division in Python gives floating number
 print('Division: ', 6 / 2)        # 3.0         
 print('Division: ', 7 / 2)        # 3.5
-print('Division without the remainder: ', 7 // 2)   # 3,  gives without the floating number or without the remaining
+print('Division without the remainder: ', 7 // 2)   # 3,  Gives without the floating number or without the remaining
 print ('Division without the remainder: ',7 // 3)   # 2
 print('Modulus: ', 3 % 2)         # 1, Gives the remainder
 print('Exponentiation: ', 2 ** 3) # 9 it means 2 * 2 * 2
 ```
 
-**Example:Floats**
+**Example: Floats**
 
 ```py
 # Floating numbers
@@ -84,7 +84,7 @@ print('Floating Point Number, PI', 3.14)
 print('Floating Point Number, gravity', 9.81)
 ```
 
-**Example:Complex numbers**
+**Example: Complex numbers**
 
 ```py
 # Complex numbers
