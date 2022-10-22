@@ -179,7 +179,51 @@ density = mass / volume # 1000 Kg/m^3
 
 In programming we compare values, we use comparison operators to compare two values. We check if a value is greater or less or equal to other value. The following table shows Python comparison operators which was taken from [w3shool](https://www.w3schools.com/python/python_operators.asp).
 
-![Comparison Operators](https://www.devopsschool.com/blog/wp-content/uploads/2020/08/relational-operator-in-python.png)
+![Comparison Operators]
+<table class="ws-table-all notranslate">
+<tbody><tr>
+<th style="width:25%">Operator</th>
+<th style="width:35%">Name</th>
+<th style="width:30%">Example</th>
+<th style="width:10%">Try it</th>
+</tr>
+<tr>
+<td>==</td>
+<td>Equal</td>
+<td>x == y</td>
+<td><a target="_blank" class="w3-btn btnsmall btnsmall" href="trypython.asp?filename=demo_oper_compare1">Try it »</a></td>
+</tr>
+<tr>
+<td>!=</td>
+<td>Not equal</td>
+<td>x != y</td>
+<td><a target="_blank" class="w3-btn btnsmall btnsmall" href="trypython.asp?filename=demo_oper_compare2">Try it »</a></td>
+</tr>
+<tr>
+<td>&gt;</td>
+<td>Greater than</td>
+<td>x &gt; y</td>
+<td><a target="_blank" class="w3-btn btnsmall btnsmall" href="trypython.asp?filename=demo_oper_compare4">Try it »</a></td>
+</tr>
+<tr>
+<td>&lt;</td>
+<td>Less than</td>
+<td>x &lt; y</td>
+<td><a target="_blank" class="w3-btn btnsmall btnsmall" href="trypython.asp?filename=demo_oper_compare5">Try it »</a></td>
+</tr>
+  <tr>
+<td>&gt;=</td>
+<td>Greater than or equal to</td>
+<td>x &gt;= y</td>
+<td><a target="_blank" class="w3-btn btnsmall btnsmall" href="trypython.asp?filename=demo_oper_compare6">Try it »</a></td>
+  </tr>
+<tr>
+<td>&lt;=</td>
+<td>Less than or equal to</td>
+<td>x &lt;= y</td>
+<td><a target="_blank" class="w3-btn btnsmall btnsmall" href="trypython.asp?filename=demo_oper_compare7">Try it »</a></td>
+</tr>
+</tbody></table>
 
 **Example: Comparison Operators**
 
