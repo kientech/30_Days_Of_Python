@@ -9,7 +9,7 @@
 
 </div>
 
-[<< 01_Day](../01_Day_Introduction/01_Day_Introduction.ipynb) | [03_Day >>](../03_Day_Operators/03_Day_Operators.md)
+[<< 01_Day](../01_Day_Introduction/01_Day_Introduction.py) | [03_Day >>](../03_Day_Operators/03_Day_Operators.md)
 
 ![30DaysOfPython](https://camo.githubusercontent.com/59a720eaa51a6bbc45ba76313bf53a4f2c84dde994c947809a49b41f3c828ef2/68747470733a2f2f7374617469632e636f64696e67666f72656e7472657072656e657572732e636f6d2f6d656469612f70726f6a656374732f33302d646179732d707974686f6e2d33382f696d616765732f73686172652f33305f446179735f6f665f507974686f6e5f2d5f53686172652e6a7067)
 
@@ -405,4 +405,4 @@ help("class")
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< 01_Day](../01_Day_Introduction/01_Day_Introduction.ipynb) | [03_Day >>](../03_Day_Operators/03_Day_Operators.md)
+[<< 01_Day](../01_Day_Introduction/01_Day_Introduction.py) | [03_Day >>](../03_Day_Operators/03_Day_Operators.md)
