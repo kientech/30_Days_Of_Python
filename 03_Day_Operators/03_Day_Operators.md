@@ -182,46 +182,39 @@ In programming we compare values, we use comparison operators to compare two val
 ![Comparison Operators]
 <table class="ws-table-all notranslate">
 <tbody><tr>
-<th style="width:25%">Operator</th>
-<th style="width:35%">Name</th>
-<th style="width:30%">Example</th>
-<th style="width:10%">Try it</th>
+<th style="width:100%">Operator</th>
+<th style="width:100%">Name</th>
+<th style="width:100%">Example</th>
 </tr>
 <tr>
 <td>==</td>
 <td>Equal</td>
 <td>x == y</td>
-<td><a target="_blank" class="w3-btn btnsmall btnsmall" href="trypython.asp?filename=demo_oper_compare1">Try it »</a></td>
 </tr>
 <tr>
 <td>!=</td>
 <td>Not equal</td>
 <td>x != y</td>
-<td><a target="_blank" class="w3-btn btnsmall btnsmall" href="trypython.asp?filename=demo_oper_compare2">Try it »</a></td>
 </tr>
 <tr>
 <td>&gt;</td>
 <td>Greater than</td>
 <td>x &gt; y</td>
-<td><a target="_blank" class="w3-btn btnsmall btnsmall" href="trypython.asp?filename=demo_oper_compare4">Try it »</a></td>
 </tr>
 <tr>
 <td>&lt;</td>
 <td>Less than</td>
 <td>x &lt; y</td>
-<td><a target="_blank" class="w3-btn btnsmall btnsmall" href="trypython.asp?filename=demo_oper_compare5">Try it »</a></td>
 </tr>
   <tr>
 <td>&gt;=</td>
 <td>Greater than or equal to</td>
 <td>x &gt;= y</td>
-<td><a target="_blank" class="w3-btn btnsmall btnsmall" href="trypython.asp?filename=demo_oper_compare6">Try it »</a></td>
   </tr>
 <tr>
 <td>&lt;=</td>
 <td>Less than or equal to</td>
 <td>x &lt;= y</td>
-<td><a target="_blank" class="w3-btn btnsmall btnsmall" href="trypython.asp?filename=demo_oper_compare7">Try it »</a></td>
 </tr>
 </tbody></table>
 
