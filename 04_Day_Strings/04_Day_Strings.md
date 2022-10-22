@@ -55,13 +55,13 @@ print(sentence)
 Multiline string is created by using triple single (''') or triple double quotes ("""). See the example below.
 
 ```py
-multiline_string = '''I am a teacher and enjoy teaching.
+multiline_string = '''I am a student and enjoy learning.
 I didn't find anything as rewarding as empowering people.
 That is why I created 30 days of python.'''
 print(multiline_string)
 
 # Another way of doing the same thing
-multiline_string = """I am a teacher and enjoy teaching.
+multiline_string = """I am a student and enjoy learning.
 I didn't find anything as rewarding as empowering people.
 That is why I created 30 days of python."""
 print(multiline_string)
@@ -72,16 +72,18 @@ print(multiline_string)
 We can connect strings together. Merging or connecting strings is called concatenation. See the example below:
 
 ```py
-first_name = 'Asabeneh'
-last_name = 'Yetayeh'
+first_name = 'Duong'
+middle_name = 'Trung'
+last_name = 'Kien'
 space = ' '
-full_name = first_name  +  space + last_name
-print(full_name) # Asabeneh Yetayeh
+full_name = first_name  +  space + middle_name + space + last_name
+print(full_name) # Duong Trung Kien
 # Checking the length of a string using len() built-in function
-print(len(first_name))  # 8
-print(len(last_name))   # 7
+print(len(first_name))  # 5
+print(len(middle_name))  # 5
+print(len(last_name))   # 4
 print(len(first_name) > len(last_name)) # True
-print(len(full_name)) # 16
+print(len(full_name))
 ```
 
 ### Escape Sequences in Strings
