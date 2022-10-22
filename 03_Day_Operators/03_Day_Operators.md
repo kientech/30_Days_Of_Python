@@ -48,13 +48,13 @@ Assignment operators are used to assign values to variables. Let us take = as an
 
 ### Arithmetic Operators:
 
-- Addition(+): a + b
-- Subtraction(-): a - b
-- Multiplication(*): a * b
-- Division(/): a / b
-- Modulus(%): a % b
-- Floor division(//): a // b
-- Exponentiation(**): a ** b
+- Addition (+): a + b
+- Subtraction (-): a - b
+- Multiplication (*): a * b
+- Division (/): a / b
+- Modulus (%): a % b
+- Floor division (//): a // b
+- Exponentiation (**): a ** b
 
 ![Arithmetic Operators](https://github.com/Asabeneh/30-Days-Of-Python/raw/master/images/arithmetic_operators.png)
 
@@ -179,7 +179,8 @@ density = mass / volume # 1000 Kg/m^3
 
 In programming we compare values, we use comparison operators to compare two values. We check if a value is greater or less or equal to other value. The following table shows Python comparison operators which was taken from [w3shool](https://www.w3schools.com/python/python_operators.asp).
 
-![Comparison Operators](../images/comparison_operators.png)
+![Comparison Operators](https://www.devopsschool.com/blog/wp-content/uploads/2020/08/relational-operator-in-python.png)
+
 **Example: Comparison Operators**
 
 ```py
