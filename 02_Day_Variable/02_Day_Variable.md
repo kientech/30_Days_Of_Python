@@ -320,11 +320,11 @@ length_first_name = len(first_name)
 length_last_name = len(last_name)
 
 if lenght_first_name > length_last_name:
-    return "length first name > length last name"
-elif lenght_first_name = length_last_name:
-    return "length first name = length last name"
+    print("length first name > length last name")
+elif lenght_first_name == length_last_name:
+    print("length first name = length last name")
 else:
-    return "length first name < length last name"
+    print("length first name < length last name")
 ```
 5. Declare 5 as num_one and 4 as num_two
     1. Add num_one and num_two and assign the value to a variable total
