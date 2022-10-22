@@ -328,23 +328,80 @@ else:
 ```
 5. Declare 5 as num_one and 4 as num_two
     1. Add num_one and num_two and assign the value to a variable total
- ``` py
-num_one = 1
-num_two = 2
-total = num_one + num_two
- ```
+    ``` py
+    num_one = 1
+    num_two = 2
+    total = num_one + num_two
+    ```
     3. Subtract num_two from num_one and assign the value to a variable diff
-    4. Multiply num_two and num_one and assign the value to a variable product
-    5. Divide num_one by num_two and assign the value to a variable division
-    6. Use modulus division to find num_two divided by num_one and assign the value to a variable remainder
-    7. Calculate num_one to the power of num_two and assign the value to a variable exp
-    8. Find floor division of num_one by num_two and assign the value to a variable floor_division
+     ``` py
+    num_one = 10
+    num_two = 2
+    subtract = num_one - num_two
+    ```
+    5. Multiply num_two and num_one and assign the value to a variable product
+     ``` py
+    num_one = 1
+    num_two = 2
+    multipli = num_one * num_two
+    ```    
+    7. Divide num_one by num_two and assign the value to a variable division
+     ``` py
+    num_one = 1
+    num_two = 2
+    divide = num_one / num_two
+    ```
+    9. Use modulus division to find num_two divided by num_one and assign the value to a variable remainder
+    ```py
+    num_one = 9
+    num_two = 2
+    modulus_division = num_one % num_two
+    ```
+    11. Calculate num_one to the power of num_two and assign the value to a variable exp
+    ```py
+    num_one = 9
+    num_two = 2
+    exp = num_one**num_two
+    ```
+    13. Find floor division of num_one by num_two and assign the value to a variable floor_division
+    ```py
+    num_one  = 9
+    num_two = 2
+    floor_division = num_one // num_two
+    ```
 6. The radius of a circle is 30 meters.
     1. Calculate the area of a circle and assign the value to a variable name of _area_of_circle_
-    2. Calculate the circumference of a circle and assign the value to a variable name of _circum_of_circle_
-    3. Take radius as user input and calculate the area.
+    ```py
+    radius_circle = 30
+    PI = 3.1415926
+    area_of_circle = PI * radius * radius
+    ```
+    3. Calculate the circumference of a circle and assign the value to a variable name of _circum_of_circle_
+    ```py
+    radius_circle = 30
+    PI = 3.1415926
+    circum_of_circle = 2 * PI * radius
+    ```
+    5. Take radius as user input and calculate the area.
+    ```py
+    # Calculate the area of circle
+    PI = 3.1415926
+    radius = float(input("Enter radius of circle: "))
+    area_of_circle = PI * radius * radius
+    print(f"Area of circle have radius {radius} is: {area_of_circle}")
+    ```
 7. Use the built-in input function to get first name, last name, country and age from a user and store the value to their corresponding variable names
-8. Run help('keywords') in Python shell or in your file to check for the Python reserved words or keywords
+```py
+def get_information():
+    first_name = input("Enter first name: ").capitalize()
+    last_name = input("Enter last name: ").capitalize()
+    country = input(f"Country of {last_name} is: ").title()
+    age = int(input(f"{last_name}'s age is: "))
+ ```
+9. Run help('keywords') in Python shell or in your file to check for the Python reserved words or keywords
+```py
+help("class")
+```
 
 🎉 CONGRATULATIONS ! 🎉
 
