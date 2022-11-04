@@ -345,20 +345,30 @@ print(f"Perimeter of rectangle is {perimeter_of_rectangle}")
 
 ```
 8. Get radius of a circle using prompt. Calculate the area (area = pi x r x r) and circumference (c = 2 x pi x r) where pi = 3.14.
-9. Calculate the slope, x-intercept and y-intercept of y = 2x -2
-10. Slope is (m = y2-y1/x2-x1). Find the slope and [Euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance#:~:text=In%20mathematics%2C%20the%20Euclidean%20distance,being%20called%20the%20Pythagorean%20distance.) between point (2, 2) and point (6,10) 
-11. Compare the slopes in tasks 8 and 9.
-12. Calculate the value of y (y = x^2 + 6x + 9). Try to use different x values and figure out at what x value y is going to be 0.
-13. Find the length of 'python' and 'dragon' and make a falsy comparison statement.
-14. Use _and_ operator to check if 'on' is found in both 'python' and 'dragon'
-15. _I hope this course is not full of jargon_. Use _in_ operator to check if _jargon_ is in the sentence.
-16. There is no 'on' in both dragon and python
-17. Find the length of the text _python_ and convert the value to float and convert it to string
-18. Even numbers are divisible by 2 and the remainder is zero. How do you check if a number is even or not using python?
-19. Check if the floor division of 7 by 3 is equal to the int converted value of 2.7.
-20. Check if type of '10' is equal to type of 10
-21. Check if int('9.8') is equal to 10
-22. Writ a script that prompts the user to enter hours and rate per hour. Calculate pay of the person?
+```py
+PI = 3.14
+radius = float(input("Enter the radius of the circle: "))
+
+area_circle = PI * radius ** 2
+circumference = 2 * PI * radius
+
+print("Area of the circle is: {}".format(area_circle))
+print("Circumference is: {}".format(circumference))
+```
+10. Calculate the slope, x-intercept and y-intercept of y = 2x -2
+11. Slope is (m = y2-y1/x2-x1). Find the slope and [Euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance#:~:text=In%20mathematics%2C%20the%20Euclidean%20distance,being%20called%20the%20Pythagorean%20distance.) between point (2, 2) and point (6,10) 
+12. Compare the slopes in tasks 8 and 9.
+13. Calculate the value of y (y = x^2 + 6x + 9). Try to use different x values and figure out at what x value y is going to be 0.
+14. Find the length of 'python' and 'dragon' and make a falsy comparison statement.
+15. Use _and_ operator to check if 'on' is found in both 'python' and 'dragon'
+16. _I hope this course is not full of jargon_. Use _in_ operator to check if _jargon_ is in the sentence.
+17. There is no 'on' in both dragon and python
+18. Find the length of the text _python_ and convert the value to float and convert it to string
+19. Even numbers are divisible by 2 and the remainder is zero. How do you check if a number is even or not using python?
+20. Check if the floor division of 7 by 3 is equal to the int converted value of 2.7.
+21. Check if type of '10' is equal to type of 10
+22. Check if int('9.8') is equal to 10
+23. Writ a script that prompts the user to enter hours and rate per hour. Calculate pay of the person?
 
 ```py
 Enter hours: 40
