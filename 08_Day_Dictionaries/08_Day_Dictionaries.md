@@ -53,11 +53,11 @@ dct = {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
 
 ```py
 person = {
-    'first_name':'Asabeneh',
-    'last_name':'Yetayeh',
-    'age':250,
-    'country':'Finland',
-    'is_marred':True,
+    'first_name':'Duong',
+    'last_name':'Kien',
+    'age': 19,
+    'country':'Quang Ngai',
+    'is_marred':False,
     'skills':['JavaScript', 'React', 'Node', 'MongoDB', 'Python'],
     'address':{
         'street':'Space street',
@@ -82,11 +82,11 @@ print(len(dct)) # 4
 
 ```py
 person = {
-    'first_name':'Asabeneh',
-    'last_name':'Yetayeh',
-    'age':250,
-    'country':'Finland',
-    'is_marred':True,
+    'first_name':'Duong',
+    'last_name':'Kien',
+    'age':19,
+    'country':'Quang Ngai',
+    'is_marred':False,
     'skills':['JavaScript', 'React', 'Node', 'MongoDB', 'Python'],
     'address':{
         'street':'Space street',
@@ -112,8 +112,8 @@ print(dct['key4']) # value4
 
 ```py
 person = {
-    'first_name':'Asabeneh',
-    'last_name':'Yetayeh',
+    'first_name':'Duong',
+    'last_name':'Kien',
     'age':250,
     'country':'Finland',
     'is_marred':True,
@@ -136,17 +136,17 @@ Accessing an item by key name raises an error if the key does not exist. To avoi
 person = {
     'first_name':'Asabeneh',
     'last_name':'Yetayeh',
-    'age':250,
-    'country':'Finland',
-    'is_marred':True,
+    'age':19,
+    'country':'Quang Ngai',
+    'is_marred':False,
     'skills':['JavaScript', 'React', 'Node', 'MongoDB', 'Python'],
     'address':{
         'street':'Space street',
         'zipcode':'02210'
     }
     }
-print(person.get('first_name')) # Asabeneh
-print(person.get('country'))    # Finland
+print(person.get('first_name')) # Duong
+print(person.get('country'))    # Kien
 print(person.get('skills')) #['HTML','CSS','JavaScript', 'React', 'Node', 'MongoDB', 'Python']
 print(person.get('city'))   # None
 ```
@@ -165,11 +165,11 @@ dct['key5'] = 'value5'
 
 ```py
 person = {
-    'first_name':'Asabeneh',
-    'last_name':'Yetayeh',
-    'age':250,
-    'country':'Finland',
-    'is_marred':True,
+    'first_name':'Duong',
+    'last_name':'Kien',
+    'age':19,
+    'country':'Quang Ngai',
+    'is_marred':False,
     'skills':['JavaScript', 'React', 'Node', 'MongoDB', 'Python'],
     'address':{
         'street':'Space street',
@@ -195,11 +195,11 @@ dct['key1'] = 'value-one'
 
 ```py
 person = {
-    'first_name':'Asabeneh',
-    'last_name':'Yetayeh',
-    'age':250,
-    'country':'Finland',
-    'is_marred':True,
+    'first_name':'Duong',
+    'last_name':'Kien',
+    'age':19,
+    'country':'Quang Ngai',
+    'is_marred':False,
     'skills':['JavaScript', 'React', 'Node', 'MongoDB', 'Python'],
     'address':{
         'street':'Space street',
@@ -240,11 +240,11 @@ del dct['key2'] # removes key2 item
 
 ```py
 person = {
-    'first_name':'Asabeneh',
-    'last_name':'Yetayeh',
-    'age':250,
-    'country':'Finland',
-    'is_marred':True,
+    'first_name':'Duong',
+    'last_name':'Kien',
+    'age':19,
+    'country':'Quang Ngai',
+    'is_marred':False,
     'skills':['JavaScript', 'React', 'Node', 'MongoDB', 'Python'],
     'address':{
         'street':'Space street',
