@@ -62,7 +62,7 @@ To import the file we use the _import_ keyword and the name of the file only.
 ```py
 # main.py file
 import mymodule
-print(mymodule.generate_full_name('Asabeneh', 'Yetayeh')) # Asabeneh Yetayeh
+print(mymodule.generate_full_name('Duong', 'Kien')) # Duong Kien
 ```
 
 ### Import Functions from a Module
@@ -72,7 +72,7 @@ We can have many functions in a file and we can import all the functions differe
 ```py
 # main.py file
 from mymodule import generate_full_name, sum_two_nums, person, gravity
-print(generate_full_name('Asabneh','Yetayeh'))
+print(generate_full_name('Duong','Kien'))
 print(sum_two_nums(1,9))
 mass = 100;
 weight = mass * gravity
