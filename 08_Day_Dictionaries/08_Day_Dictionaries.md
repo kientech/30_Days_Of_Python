@@ -5,7 +5,7 @@
 
 
 <sub>Author:
-<a href="https://www.facebook.com/duongtrungkien04062003"> Duong Trung Kien</a><br>
+<a href="https://www.facebook.com/duongtrungkien062003"> Duong Trung Kien</a><br>
 <small>October, 2022</small>
 </sub>
 
@@ -199,7 +199,7 @@ person = {
     'last_name':'Kien',
     'age':19,
     'country':'Quang Ngai',
-    'is_marred':False,
+    'is_married':False,
     'skills':['JavaScript', 'React', 'Node', 'MongoDB', 'Python'],
     'address':{
         'street':'Space street',
@@ -244,7 +244,7 @@ person = {
     'last_name':'Kien',
     'age':19,
     'country':'Quang Ngai',
-    'is_marred':False,
+    'is_married':False,
     'skills':['JavaScript', 'React', 'Node', 'MongoDB', 'Python'],
     'address':{
         'street':'Space street',
