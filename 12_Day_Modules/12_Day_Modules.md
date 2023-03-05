@@ -1,11 +1,11 @@
 <div align="center">
   <h1> 30_Days_Of_Python: 12_Day_Modules</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
+  <a class="header-badge" target="_blank" href="https://duongtrungkien.netlify.app/">
   </a>
 
 
 <sub>Author:
-<a href="https://www.facebook.com/duongtrungkien04062003"> Duong Trung Kien</a><br>
+<a href="https://www.facebook.com/duongtrungkien062003"> Duong Trung Kien</a><br>
 <small>October, 2022</small>
 </sub>
 
@@ -87,7 +87,7 @@ During importing we can rename the name of the module.
 ```py
 # main.py file
 from mymodule import generate_full_name as fullname, sum_two_nums as total, person as p, gravity as g
-print(fullname('Asabneh','Yetayeh'))
+print(fullname('Duong','Kien'))
 print(total(1, 9))
 mass = 100;
 weight = mass * g
@@ -138,7 +138,7 @@ python script.py Asabeneh 30DaysOfPython
 The result:
 
 ```sh
-Welcome Asabeneh. Enjoy  30DayOfPython challenge! 
+Welcome Kien. Enjoy  30DayOfPython challenge! 
 ```
 
 Some useful sys commands:
