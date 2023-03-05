@@ -1,6 +1,6 @@
 <div align="center">
   <h1> 30_Days_Of_Python: 08_Day_Dictionaries</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
+  <a class="header-badge" target="_blank" href="https://duongtrungkien.netlify.app/">
   </a>
 
 
