@@ -124,7 +124,7 @@ def greetings (name):
     message = name + ', welcome to Python for Everyone!'
     return message
 
-print(greetings('Asabeneh'))
+print(greetings('Kien'))
 
 def add_ten(num):
     ten = 10
@@ -180,7 +180,7 @@ def calculate_age (current_year, birth_year):
     age = current_year - birth_year
     return age;
 
-print('Age: ', calculate_age(2021, 1819))
+print('Age: ', calculate_age(2022, 2003))
 
 def weight_of_object (mass, gravity):
     weight = str(mass * gravity)+ ' N' # the value has to be changed to a string first
@@ -209,7 +209,7 @@ def print_fullname(firstname, lastname):
     space = ' '
     full_name = firstname  + space + lastname
     print(full_name)
-print(print_fullname(firstname = 'Asabeneh', lastname = 'Yetayeh'))
+print(print_fullname(firstname = 'Duong', lastname = 'Kien'))
 
 def add_two_numbers (num1, num2):
     total = num1 + num2
@@ -227,13 +227,13 @@ If we do not return a value with a function, then our function is returning _Non
 ```py
 def print_name(firstname):
     return firstname
-print_name('Asabeneh') # Asabeneh
+print_name('Duong') # Duong
 
 def print_full_name(firstname, lastname):
     space = ' '
     full_name = firstname  + space + lastname
     return full_name
-print_full_name(firstname='Asabeneh', lastname='Yetayeh')
+print_full_name(firstname='Duong', lastname='Kien')
 ```
 
 - Returning a number:
@@ -249,7 +249,7 @@ print(add_two_numbers(2, 3))
 def calculate_age (current_year, birth_year):
     age = current_year - birth_year
     return age;
-print('Age: ', calculate_age(2019, 1819))
+print('Age: ', calculate_age(2022, 2003))
 ```
 
 - Returning a boolean:
@@ -296,13 +296,13 @@ function_name(arg)
 **Example:**
 
 ```py
-def greetings (name = 'Peter'):
+def greetings (name = 'Kien'):
     message = name + ', welcome to Python for Everyone!'
     return message
 print(greetings())
-print(greetings('Asabeneh'))
+print(greetings('Duong'))
 
-def generate_full_name (first_name = 'Asabeneh', last_name = 'Yetayeh'):
+def generate_full_name (first_name = 'Duong', last_name = 'Kien'):
     space = ' '
     full_name = first_name + space + last_name
     return full_name
@@ -310,10 +310,10 @@ def generate_full_name (first_name = 'Asabeneh', last_name = 'Yetayeh'):
 print(generate_full_name())
 print(generate_full_name('David','Smith'))
 
-def calculate_age (birth_year,current_year = 2021):
+def calculate_age (birth_year,current_year = 2022):
     age = current_year - birth_year
     return age;
-print('Age: ', calculate_age(1821))
+print('Age: ', calculate_age(2003))
 
 def weight_of_object (mass, gravity = 9.81):
     weight = str(mass * gravity)+ ' N' # the value has to be changed to string first
