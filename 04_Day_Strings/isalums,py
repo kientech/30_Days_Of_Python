@@ -1,0 +1,11 @@
+challenge = 'ThirtyDaysPython'
+print(challenge.isalnum()) # True
+
+challenge = '30DaysPython'
+print(challenge.isalnum()) # True
+
+challenge = 'thirty days of python'
+print(challenge.isalnum()) # False, space is not an alphanumeric character
+
+challenge = 'thirty days of python 2019'
+print(challenge.isalnum()) # False
