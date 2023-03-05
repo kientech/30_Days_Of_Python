@@ -119,7 +119,7 @@ Number of countries: 5
 - Lists can have items of different data types
 
 ```py
- lst = ['Asabeneh', 250, True, {'country':'Finland', 'city':'Helsinki'}] # list containing different data types
+ lst = ['Kien Duong', 20, True, {'country':'Vietnam', 'city':'Ho Chi Minh City'}] # list containing different data types
 ```
 
 ### Accessing List Items Using Positive Indexing
