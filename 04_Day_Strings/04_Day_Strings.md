@@ -342,13 +342,13 @@ print(challenge.rfind('th')) # 1
    More about string formatting check this [link](https://www.programiz.com/python-programming/methods/string/format)
 
 ```py
-first_name = 'Asabeneh'
-last_name = 'Yetayeh'
-age = 250
-job = 'teacher'
-country = 'Finland'
+first_name = 'Duong'
+last_name = 'Kien'
+age = 20
+job = 'student'
+country = 'Vietnam'
 sentence = 'I am {} {}. I am a {}. I am {} years old. I live in {}.'.format(first_name, last_name, age, job, country)
-print(sentence) # I am Asabeneh Yetayeh. I am 250 years old. I am a teacher. I live in Finland.
+print(sentence) # I am Duong Kien. I am 20 years old. I am a student. I live in Vietnam.
 
 radius = 10
 pi = 3.14
