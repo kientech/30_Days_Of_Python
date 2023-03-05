@@ -134,8 +134,8 @@ print(person['city'])       # Error
 Accessing an item by key name raises an error if the key does not exist. To avoid this error first we have to check if a key exist or we can use the _get_ method. The get method returns None, which is a NoneType object data type, if the key does not exist.
 ```py
 person = {
-    'first_name':'Asabeneh',
-    'last_name':'Yetayeh',
+    'first_name':'Duong',
+    'last_name':'Kien',
     'age':19,
     'country':'Quang Ngai',
     'is_marred':False,
