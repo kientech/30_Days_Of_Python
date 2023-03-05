@@ -5,7 +5,7 @@
 
 
 <sub>Author:
-<a href="https://www.facebook.com/duongtrungkien04062003"> Duong Trung Kien</a><br>
+<a href="https://www.facebook.com/duongtrungkien062003"> Duong Trung Kien</a><br>
 <small>October, 2022</small>
 </sub>
 
@@ -65,8 +65,8 @@ Function can be declared without parameters.
 
 ```py
 def generate_full_name ():
-    first_name = 'Asabeneh'
-    last_name = 'Yetayeh'
+    first_name = 'Duong'
+    last_name = 'Kien'
     space = ' '
     full_name = first_name + space + last_name
     print(full_name)
@@ -86,8 +86,8 @@ Function can also return values, if a function does not have a return statement,
 
 ```py
 def generate_full_name ():
-    first_name = 'Asabeneh'
-    last_name = 'Yetayeh'
+    first_name = 'Duong'
+    last_name = 'Kien'
     space = ' '
     full_name = first_name + space + last_name
     return full_name
@@ -354,7 +354,7 @@ def generate_groups (team,*args):
     print(team)
     for i in args:
         print(i)
-print(generate_groups('Team-1','Asabeneh','Brook','David','Eyob'))
+print(generate_groups('Team-1','Duong','Brook','David','Eyob'))
 ```
 
 ### Function as a Parameter of Another Function
