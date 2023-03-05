@@ -125,7 +125,6 @@ Number of countries: 5
 ### Accessing List Items Using Positive Indexing
 
 We access each item in a list using their index. A list index starts from 0. The picture below shows clearly where the index starts
-![List index](../images/list_index.png)
 
 ```py
 fruits = ['banana', 'orange', 'mango', 'lemon']
@@ -144,7 +143,6 @@ last_fruit = fruits[last_index]
 
 Negative indexing means beginning from the end, -1 refers to the last item, -2 refers to the second last item.
 
-![List negative indexing](../images/list_negative_indexing.png)
 
 ```py
 fruits = ['banana', 'orange', 'mango', 'lemon']
