@@ -5,7 +5,7 @@
 
 
 <sub>Author:
-<a href="https://www.facebook.com/duongtrungkien04062003"> Duong Trung Kien</a><br>
+<a href="https://www.facebook.com/duongtrungkien062003"> Duong Trung Kien</a><br>
 <small>October, 2022</small>
 </sub>
 
@@ -329,10 +329,10 @@ for x in y:
 
 ```py
 person = {
-    'first_name': 'Asabeneh',
-    'last_name': 'Yetayeh',
-    'age': 250,
-    'country': 'Finland',
+    'first_name': 'Duong',
+    'last_name': 'Kien',
+    'age': 20,
+    'country': 'Vietnam',
     'is_marred': True,
     'skills': ['JavaScript', 'React', 'Node', 'MongoDB', 'Python'],
     'address': {
