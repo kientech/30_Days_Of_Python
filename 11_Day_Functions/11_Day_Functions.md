@@ -169,7 +169,7 @@ def generate_full_name (first_name, last_name):
     space = ' '
       full_name = first_name + space + last_name
       return full_name
-print('Full Name: ', generate_full_name('Asabeneh','Yetayeh'))
+print('Full Name: ', generate_full_name('Duong','Kien'))
 
 def sum_two_numbers (num_one, num_two):
     sum = num_one + num_two
