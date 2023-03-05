@@ -157,8 +157,8 @@ This formatting is introduced in Python version 3.
 
 ```py
 
-first_name = 'Asabeneh'
-last_name = 'Yetayeh'
+first_name = 'Duong'
+last_name = 'Kien'
 language = 'Python'
 formated_string = 'I am {} {}. I teach {}'.format(first_name, last_name, language)
 print(formated_string)
