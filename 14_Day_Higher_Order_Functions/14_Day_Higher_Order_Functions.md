@@ -198,7 +198,7 @@ def print_full_name(first_name, last_name, country):
     print("I am {} {}. I love to teach.".format(
         first_name, last_name, country))
 
-print_full_name("Asabeneh", "Yetayeh",'Finland')
+print_full_name("Duong", "Kien",'vietnam')
 ```
 
 ## Built-in Higher Order Functions
@@ -239,17 +239,17 @@ print(list(numbers_int))    # [1, 2, 3, 4, 5]
 **Example:3**
 
 ```py
-names = ['Asabeneh', 'Lidiya', 'Ermias', 'Abraham']  # iterable
+names = ['Kien', 'Lidiya', 'Ermias', 'Abraham']  # iterable
 
 def change_to_upper(name):
     return name.upper()
 
 names_upper_cased = map(change_to_upper, names)
-print(list(names_upper_cased))    # ['ASABENEH', 'LIDIYA', 'ERMIAS', 'ABRAHAM']
+print(list(names_upper_cased))    # ['KIEN', 'LIDIYA', 'ERMIAS', 'ABRAHAM']
 
 # Let us apply it with a lambda function
 names_upper_cased = map(lambda name: name.upper(), names)
-print(list(names_upper_cased))    # ['ASABENEH', 'LIDIYA', 'ERMIAS', 'ABRAHAM']
+print(list(names_upper_cased))    # ['KIEN', 'LIDIYA', 'ERMIAS', 'ABRAHAM']
 ```
 
 What actually map does is iterating over a list. For instance, it changes the names to upper case and returns a new list.
@@ -294,14 +294,14 @@ print(list(odd_numbers))       # [1, 3, 5]
 
 ```py
 # Filter long name
-names = ['Asabeneh', 'Lidiya', 'Ermias', 'Abraham']  # iterable
+names = ['Kien', 'Lidiya', 'Ermias', 'Abraham']  # iterable
 def is_name_long(name):
     if len(name) > 7:
         return True
     return False
 
 long_names = filter(is_name_long, names)
-print(list(long_names))         # ['Asabeneh']
+print(list(long_names))         # ['Duong']
 ```
 
 ### Python - Reduce Function
@@ -322,7 +322,7 @@ print(total)    # 15
 
 ```py
 countries = ['Estonia', 'Finland', 'Sweden', 'Denmark', 'Norway', 'Iceland']
-names = ['Asabeneh', 'Lidiya', 'Ermias', 'Abraham']
+names = ['Kien', 'Lidiya', 'Ermias', 'Abraham']
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ```
 
