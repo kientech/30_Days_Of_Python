@@ -1,0 +1,2 @@
+    # syntax
+filter(function, iterable)
