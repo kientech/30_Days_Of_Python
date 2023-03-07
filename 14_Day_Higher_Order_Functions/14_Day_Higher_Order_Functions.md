@@ -1,11 +1,10 @@
 <div align="center">
   <h1> 30_Days_Of_Python: 14_Day_Higher_Order_Functions</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
-  </a>
+
 
 
 <sub>Author:
-<a href="https://www.facebook.com/duongtrungkien04062003"> Duong Trung Kien</a><br>
+<a href="https://www.facebook.com/duongtrungkien062003"> Duong Trung Kien</a><br>
 <small>October, 2022</small>
 </sub>
 
