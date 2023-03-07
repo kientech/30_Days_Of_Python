@@ -5,7 +5,7 @@
 
 
 <sub>Author:
-<a href="https://www.facebook.com/duongtrungkien04062003"> Duong Trung Kien</a><br>
+<a href="https://www.facebook.com/duongtrungkien062003"> Duong Trung Kien</a><br>
 <small>October, 2022</small>
 </sub>
 
@@ -35,7 +35,7 @@ List comprehension in Python is a compact way of creating a list from a sequence
 [i for i in iterable if expression]
 ```
 
-**Example:1**
+**Example 1:**
 
 For instance if you want to change a string to a list of characters. You can use a couple of methods. Let's see some of them:
 
@@ -53,7 +53,7 @@ print(lst)       # ['P', 'y', 't', 'h', 'o', 'n']
 
 ```
 
-**Example:2**
+**Example: 2**
 
 For instance if you want to generate a list of numbers
 
