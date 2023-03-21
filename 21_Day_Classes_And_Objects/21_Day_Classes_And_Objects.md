@@ -5,7 +5,7 @@
 
 
 <sub>Author:
-<a href="https://www.facebook.com/duongtrungkien04062003"> Duong Trung Kien</a><br>
+<a href="https://www.facebook.com/duongtrungkien.2003"> Duong Trung Kien</a><br>
 <small>October, 2022</small>
 </sub>
 
@@ -40,10 +40,6 @@ We have been working with classes and objects right from the beginning of this c
 Let us check if everything in python is a class:
 
 ```py
-asabeneh@Asabeneh:~$ python
-Python 3.9.6 (default, Jun 28 2021, 15:26:21)
-[Clang 11.0.0 (clang-1100.0.33.8)] on darwin
-Type "help", "copyright", "credits" or "license" for more information.
 >>> num = 10
 >>> type(num)
 <class 'int'>
@@ -109,7 +105,7 @@ class Person:
         # self allows to attach parameter to the class
           self.name =name
 
-p = Person('Asabeneh')
+p = Person('Kien')
 print(p.name)
 print(p)
 ```
@@ -132,7 +128,7 @@ class Person:
           self.city = city
 
 
-p = Person('Asabeneh', 'Yetayeh', 250, 'Finland', 'Helsinki')
+p = Person('Kien', 'Duong', 250, 'Quagn Ngai', 'Ho CI Minh')
 print(p.firstname)
 print(p.lastname)
 print(p.age)
@@ -142,11 +138,11 @@ print(p.city)
 
 ```sh
 # output
-Asabeneh
-Yetayeh
+Kien
+Duong
 250
-Finland
-Helsinki
+Quang Ngai
+Ho Chi Minh
 ```
 
 ### Object Methods
@@ -166,13 +162,13 @@ class Person:
       def person_info(self):
         return f'{self.firstname} {self.lastname} is {self.age} years old. He lives in {self.city}, {self.country}'
 
-p = Person('Asabeneh', 'Yetayeh', 250, 'Finland', 'Helsinki')
+p = Person('Kien', 'Duowng', 250, 'Quang Ngai', 'Ho Chi Minh')
 print(p.person_info())
 ```
 
 ```sh
 # output
-Asabeneh Yetayeh is 250 years old. He lives in Helsinki, Finland
+Kien Duong is 250 years old. He lives in Quang Ngai, Quang Ngai
 ```
 
 ### Object Default Methods
