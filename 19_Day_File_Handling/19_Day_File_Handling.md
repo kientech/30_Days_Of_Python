@@ -217,19 +217,19 @@ _Example:_
 ```py
 # dictionary
 person_dct= {
-    "name":"Asabeneh",
-    "country":"Finland",
-    "city":"Helsinki",
+    "name":"Kien",
+    "country":"Quang Ngai",
+    "city":"Ho Chi Minh",
     "skills":["JavaScrip", "React","Python"]
 }
 # JSON: A string form a dictionary
-person_json = "{'name': 'Asabeneh', 'country': 'Finland', 'city': 'Helsinki', 'skills': ['JavaScrip', 'React', 'Python']}"
+person_json = "{'name': 'Kien', 'country': 'Quang Ngai', 'city': 'Ho Chi Minh', 'skills': ['JavaScrip', 'React', 'Python']}"
 
 # we use three quotes and make it multiple line to make it more readable
 person_json = '''{
-    "name":"Asabeneh",
-    "country":"Finland",
-    "city":"Helsinki",
+    "name":"Kien",
+    "country":"Quang Ngai",
+    "city":"Ho Chi Minh",
     "skills":["JavaScrip", "React","Python"]
 }'''
 ```
@@ -242,9 +242,9 @@ To change a JSON to a dictionary, first we import the json module and then we us
 import json
 # JSON
 person_json = '''{
-    "name": "Asabeneh",
-    "country": "Finland",
-    "city": "Helsinki",
+    "name": "Kien",
+    "country": "Quang Ngai",
+    "city": "Ho Chi Minh",
     "skills": ["JavaScrip", "React", "Python"]
 }'''
 # let's change JSON to dictionary
@@ -257,8 +257,8 @@ print(person_dct['name'])
 ```sh
 # output
 <class 'dict'>
-{'name': 'Asabeneh', 'country': 'Finland', 'city': 'Helsinki', 'skills': ['JavaScrip', 'React', 'Python']}
-Asabeneh
+{'name': 'Kien', 'country': 'Quang Ngai', 'city': 'Ho Chi Minh', 'skills': ['JavaScrip', 'React', 'Python']}
+Kien
 ```
 
 ### Changing Dictionary to JSON
@@ -269,9 +269,9 @@ To change a dictionary to a JSON we use _dumps_ method from the json module.
 import json
 # python dictionary
 person = {
-    "name": "Asabeneh",
-    "country": "Finland",
-    "city": "Helsinki",
+    "name": "Kien",
+    "country": "Quang Ngai",
+    "city": "Ho Chi Minh",
     "skills": ["JavaScrip", "React", "Python"]
 }
 # let's convert it to  json
@@ -286,9 +286,9 @@ print(person_json)
 # JSON does not have type, it is a string type.
 <class 'str'>
 {
-    "name": "Asabeneh",
-    "country": "Finland",
-    "city": "Helsinki",
+    "name": "Kien",
+    "country": "Quang Ngai",
+    "city": "Ho chi Minh",
     "skills": [
         "JavaScrip",
         "React",
@@ -305,9 +305,9 @@ We can also save our data as a json file. Let us save it as a json file using th
 import json
 # python dictionary
 person = {
-    "name": "Asabeneh",
-    "country": "Finland",
-    "city": "Helsinki",
+    "name": "Kien",
+    "country": "Quang Ngai",
+    "city": "Ho Chi Minh",
     "skills": ["JavaScrip", "React", "Python"]
 }
 with open('./files/json_example.json', 'w', encoding='utf-8') as f:
@@ -324,7 +324,7 @@ CSV stands for comma separated values. CSV is a simple file format used to store
 
 ```csv
 "name","country","city","skills"
-"Asabeneh","Finland","Helsinki","JavaScript"
+"Kien","Quagn Ngai","Ho Chi Minh","JavaScript"
 ```
 
 **Example:**
@@ -348,7 +348,7 @@ with open('./files/csv_example.csv') as f:
 ```sh
 # output:
 Column names are :name, country, city, skills
-        Asabeneh is a teacher. He lives in Finland, Helsinki.
+        Kien is a teacher. He lives in Quang Ngai, Quang Ngai.
 Number of lines:  2
 ```
 
@@ -371,9 +371,9 @@ XML is another structured data format which looks like HTML. In XML the tags are
 ```xml
 <?xml version="1.0"?>
 <person gender="female">
-  <name>Asabeneh</name>
-  <country>Finland</country>
-  <city>Helsinki</city>
+  <name>Kien</name>
+  <country>Quang Ngai</country>
+  <city>Ho Chi Minh</city>
   <skills>
     <skill>JavaScrip</skill>
     <skill>React</skill>
