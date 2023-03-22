@@ -12,8 +12,7 @@
 
 [<< Day 23](../23_Day_Virtual_Environment/23_virtual_environment.md) | [Day 25 >>](../25_Day_Pandas/25_pandas.md)
 
-![30DaysOfPython](../images/30DaysOfPython_banner3@2x.png)
-
+![30DaysOfPython](https://camo.githubusercontent.com/59a720eaa51a6bbc45ba76313bf53a4f2c84dde994c947809a49b41f3c828ef2/68747470733a2f2f7374617469632e636f64696e67666f72656e7472657072656e657572732e636f6d2f6d656469612f70726f6a656374732f33302d646179732d707974686f6e2d33382f696d616765732f73686172652f33305f446179735f6f665f507974686f6e5f2d5f53686172652e6a7067)
 - [📘 Day 24](#-day-24)
   - [Python for Statistical Analysis](#python-for-statistical-analysis)
   - [Statistics](#statistics)
