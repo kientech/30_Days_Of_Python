@@ -1084,7 +1084,7 @@ plt.hist(np_normal_dis, color="grey", bins=21)
 plt.show()
 ```
 
-![png](../test_files/test_121_0.png)
+![png](![image](https://user-images.githubusercontent.com/96287101/226802805-b7e21e54-20d1-4076-a88d-1798da0bc34d.png))
 
 ```python
 # numpy.dot(): Dot Product in Python using Numpy
@@ -1197,7 +1197,7 @@ plt.xticks(np.arange(0, 6, step=0.5))
 plt.show()
 ```
 
-![png](../test_files/test_141_0.png)
+![png](![image](https://user-images.githubusercontent.com/96287101/226802841-91df7123-9625-4bee-a6f4-59c59b8480c2.png))
 
 To draw the Gaussian normal distribution using numpy. As you can see below, the numpy can generate random numbers. To create random sample, we need the mean(mu), sigma(standard deviation), mumber of data points.
 
@@ -1212,7 +1212,7 @@ ax.set(xlabel="x", ylabel='y')
 plt.show()
 ```
 
-![png](../test_files/test_143_0.png)
+![png](![image](https://user-images.githubusercontent.com/96287101/226802928-8efe5422-23bd-44cf-99a6-9512193190bf.png)))
 
 # Summery
 
