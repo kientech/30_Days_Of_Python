@@ -1,6 +1,5 @@
 <div align="center">
   <h1> 30_Days_Of_Python: 21_Day_Classes_And_Objects</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
   </a>
 
 
@@ -128,7 +127,7 @@ class Person:
           self.city = city
 
 
-p = Person('Kien', 'Duong', 250, 'Quagn Ngai', 'Ho CI Minh')
+p = Person('Kien', 'Duong', 20, 'Quang Ngai', 'Ho Chi Minh')
 print(p.firstname)
 print(p.lastname)
 print(p.age)
@@ -162,13 +161,13 @@ class Person:
       def person_info(self):
         return f'{self.firstname} {self.lastname} is {self.age} years old. He lives in {self.city}, {self.country}'
 
-p = Person('Kien', 'Duowng', 250, 'Quang Ngai', 'Ho Chi Minh')
+p = Person('Kien', 'Duowng', 20, 'Quang Ngai', 'Ho Chi Minh')
 print(p.person_info())
 ```
 
 ```sh
 # output
-Kien Duong is 250 years old. He lives in Quang Ngai, Quang Ngai
+Kien Duong is 20 years old. He lives in Quang Ngai, Quang Ngai
 ```
 
 ### Object Default Methods
