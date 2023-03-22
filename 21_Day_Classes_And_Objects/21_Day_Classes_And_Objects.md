@@ -111,8 +111,8 @@ print(p)
 
 ```sh
 # output
-Asabeneh
-<__main__.Person object at 0x2abf46907e80>
+Kien
+<__main__.Person object at 0x0000018CB1280BD0>
 ```
 
 Let us add more parameters to the constructor function.
